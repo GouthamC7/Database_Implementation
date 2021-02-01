@@ -4,9 +4,10 @@ import java.sql.*;
 
 public class DbAdapter {
 
-    String jdbUrl = "jdbc:postgresql://localhost:5432/postgres";
+    // String jdbUrl = "jdbc:postgresql://localhost:5432/postgres";
+    String jdbUrl = "jdbc:postgresql://**.**.233.37:5432/postgres";
     String username = "postgres";
-    String password = "Goutham@15";
+    String password = "*****";
 
     public Connection connection = null;
     Statement statement = null;
