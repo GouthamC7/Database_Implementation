@@ -12,9 +12,16 @@ We are using PostgreSQL for this project. It is very reliable and is easy to use
 
 ## Generate Data
 
-CSV files above are extracted from the PostgreSQL select queries. 
+The Benchmark data set (onektup, tenktup1, and tenktup2) generated from java application. The remote Java application connect to *postgres server* running on GCP VMs. 
+### Prequisites: 
+* Create a VM on GCP
+* Configure postgres on created VM (https://cloud.google.com/community/tutorials/setting-up-postgres) 
+* Allow remote ip to connect to postgres server
 
+#### Connecting to postgres server using psql shell on remote computer
 ![Establish connection to GCP VMs (postgres loaded)](https://github.com/GouthamC7/Database_Implementation/blob/main/connection_to_psql_GCP_vms.png)
+
+
 
 
 ##  Lessons learned or issues encountered
