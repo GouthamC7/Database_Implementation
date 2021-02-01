@@ -16,7 +16,7 @@ The Benchmark data set (onektup, tenktup1, and tenktup2) generated from java app
 Program connect to postgres server on GCP > Generate the table > Insert the data to table
 The full database is uploaded in csv format on repo too. 
 
-### Prequisites: 
+### Prerequisites: 
 * Create a VM on GCP
 * Configure postgres on created VM (https://cloud.google.com/community/tutorials/setting-up-postgres) 
 * Allow remote ip to connect to postgres server
