@@ -12,13 +12,36 @@ We are using PostgreSQL for this project. It is very reliable and is easy to use
 
 ## Generate Data
 
-CSV files above are extracted from the PostgreSQL select queries. 
+The Benchmark data set (onektup, tenktup1, and tenktup2) generated from java application. The remote Java application connect to *postgres server* running on GCP VMs. 
+### Prequisites: 
+* Create a VM on GCP
+* Configure postgres on created VM (https://cloud.google.com/community/tutorials/setting-up-postgres) 
+* Allow remote ip to connect to postgres server
+
+##### Connecting to postgres server using psql shell on remote computer and display database
+![Establish connection to GCP VMs (postgres loaded)](https://github.com/GouthamC7/Database_Implementation/blob/main/connection_to_psql_GCP_vms.png)
+
+##### List of tables in postgres
+![List of tables](https://github.com/GouthamC7/Database_Implementation/blob/main/list_tables.png)
+
+##### Display tuples of the onektup table
+![display tuples](https://github.com/GouthamC7/Database_Implementation/blob/main/display_record_from_onektup.png)
+
+##### Data file available on github repo too
 
 
 ##  Lessons learned or issues encountered
 
-We have gone through Wisconsin benchmark specification and got to know about what the attributes are what they hold. We learned how to connect a java program to the PostgreSQL. We did faced a lot of issues while trying to connect our java program to the database. We spent a lot of time for generating the string4 value. 
+### Issues: 
+##### SqlJDBC library not found
+* We encounted this issue when ran the program. After downloading postgres jdbc driver from postgres site. The .jar file has been added to program library. This fixed the issue. 
+##### Program can't connect to remote server
+* This issue has fixed after allowing access to laptop's ipv4 address to vm server
+##### Issue with generating String4 value 
 
+### Lessons:
+* Learn Wisconsin benchmark specification and what the attributes are what they hold
+* How to connect a java program to the local PostgreSQL and remote postgres serrver running on GCP platform
 
 ## Project partner
 
