@@ -13,6 +13,9 @@ We are using PostgreSQL for this project. It is very reliable and is easy to use
 ## Generate Data
 
 The Benchmark data set (onektup, tenktup1, and tenktup2) generated from java application. The remote Java application connect to *postgres server* running on GCP VMs. 
+Program connect to postgres server on GCP > Generate the table > Insert the data to table
+The full database is uploaded in csv format on repo too. 
+
 ### Prequisites: 
 * Create a VM on GCP
 * Configure postgres on created VM (https://cloud.google.com/community/tutorials/setting-up-postgres) 
