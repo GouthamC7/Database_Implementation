@@ -18,6 +18,10 @@ The Benchmark data set (onektup, tenktup1, and tenktup2) generated from java app
 * Configure postgres on created VM (https://cloud.google.com/community/tutorials/setting-up-postgres) 
 * Allow remote ip to connect to postgres server
 
+##### Establish GCP server
+![Establish GCP server](https://github.com/GouthamC7/Database_Implementation/blob/main/Google_vms.png)
+
+
 ##### Connecting to postgres server using psql shell on remote computer and display database
 ![Establish connection to GCP VMs (postgres loaded)](https://github.com/GouthamC7/Database_Implementation/blob/main/connection_to_psql_GCP_vms.png)
 
@@ -26,6 +30,9 @@ The Benchmark data set (onektup, tenktup1, and tenktup2) generated from java app
 
 ##### Display tuples of the onektup table
 ![display tuples](https://github.com/GouthamC7/Database_Implementation/blob/main/display_record_from_onektup.png)
+
+##### Display tuples on pgAdmin4 interface. The data has been pulling from the postgres remote server
+![display tuples](https://github.com/GouthamC7/Database_Implementation/blob/main/access_server-throgh_pgadmin4.png) 
 
 ##### Data file available on github repo too
 
