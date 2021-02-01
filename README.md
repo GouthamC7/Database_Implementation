@@ -14,6 +14,8 @@ We are using PostgreSQL for this project. It is very reliable and is easy to use
 
 CSV files above are extracted from the PostgreSQL select queries. 
 
+![Establish connection to GCP VMs (postgres loaded)](https://github.com/GouthamC7/Database_Implementation/blob/main/connection_to_psql_GCP_vms.png)
+
 
 ##  Lessons learned or issues encountered
 
