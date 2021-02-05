@@ -6,8 +6,6 @@ public class DbAdapter {
 
     // String jdbUrl = "jdbc:postgresql://localhost:5432/postgres";
     String jdbUrl = "jdbc:postgresql://**.**.233.37:5432/postgres";
- //   String jdbUrl = "jdbc:postgresql://35.226.47.178:5432/postgres";
-    
     String username = "postgres";
     String password = "****";
 
